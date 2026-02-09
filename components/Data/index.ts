@@ -31,7 +31,7 @@ export const navItems = [
     {
       id: 3,
       title: "Life Skills",
-      description: "Constantly trying to improve.",
+      description: "to improve.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
