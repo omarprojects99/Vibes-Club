@@ -1,6 +1,5 @@
 "use client";
 import { cn } from "@/utils/cn";
-import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe"
 import { useState } from "react";
 import Lottie from "react-lottie";
@@ -92,9 +91,7 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           // add background animation , remove the p tag
-          <BackgroundGradientAnimation>
-            <div className="absolute z-50 flex items-center justify-center text-white font-bold " />
-          </BackgroundGradientAnimation>
+          <div className="absolute z-50 flex items-center justify-center text-white font-bold " />
         )}
 
         <div
@@ -149,15 +146,17 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <div className={`absolute -buttom-5 right-0`}>
-                <Lottie options={{
-                  loop: copied,
-                  autoplay: copied,
-                  animationData,
-                  rendererSettings:{
-                    preserveAspectRatio:'xMidYMid slice'
-                  }
+                {copied && (
+                  <Lottie options={{
+                    loop: copied,
+                    autoplay: copied,
+                    animationData,
+                    rendererSettings:{
+                      preserveAspectRatio:'xMidYMid slice'
+                    }
 
-                }}/>
+                  }}/>
+                )}
 
 
               </div>
