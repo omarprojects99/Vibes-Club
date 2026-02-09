@@ -48,7 +48,7 @@ export const BentoGridItem = ({
   const leftLists = ["Confidence", "Communication skills", "Healthy habits"];
   const rightLists = ["Organization skills", "Creativity"];
   const [copied, setcopied] = useState(false)
-  const [animationData, setAnimationData] = useState(null)
+  const [animationData, setAnimationData] = useState<any | null>(null)
 
   useEffect(() => {
     import('@/components/Data/confetti.json').then((data) => {
