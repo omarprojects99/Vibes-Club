@@ -10,17 +10,17 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Passionate about shaping the future of CyberSecurity and software development ",
+      title: " Personal development and hobbies",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/women head.webp",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Time zone communications",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -30,8 +30,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "Life Skills",
+      description: "Constantly trying to improve.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -40,7 +40,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "We all seek growth from within.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -51,17 +51,17 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building Application for on board sales tracking and management",
+      title: "Elevate Your Mind, Body, and Life",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
+      img: "/inside scoop.webp",
       spareImg: "/grid.svg",
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Do you want to start something together?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -73,19 +73,19 @@ export const navItems = [
   export const blog = [
     {
       id: 1,
-      title: "How i hacked open cameras!:#Pentesting",
-      des: "Most of Open cameras are vulnerable",
-      img: "/cameras.png",
-      iconLists: ["/kali.jpg",],
-      link: "https://omarcyberblog.vercel.app",
+      title: "Events1",
+      des: "Decription",
+      img: "/Events1.png",
+      iconLists: ["/dotneticon.png"],
+     link: "https://www.instagram.com/vibes__club/",
     },
     {
       id: 2,
-      title: "Database Intrusion: Learning from Real-World Exposures",
-      des: "Are Your Databases Securely Locked Down?",
-      img: "/datasecure.png",
-      iconLists: ["/kali.jpg",],
-      link: "https://omar-pentesting-blog1.vercel.app/",
+       title: "Events1",
+      des: "Decription",
+      img: "/Events1.png",
+      iconLists: ["/dotneticon.png"],
+     link: "https://www.instagram.com/vibes__club/",
     },
    
   ];
@@ -93,52 +93,29 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "internship project for Tunisair",
-      des: "Monitoring and control of onboard sales and offers",
-      img: "/Screenshot 2025-07-04 134009.png",
+      title: "Events",
+      des: "Decription",
+      img: "/Events.png",
       iconLists: ["/dotneticon.png"],
-      link: "https://github.com/omarprojects99/VAB",
+      link: "https://www.instagram.com/vibes__club/",
     },
     {
       id: 2,
-      title: "e-commerce web-app ",
-      des: "search and filtre cars to buy or sell using php",
-      img: "/ProjetPhp.png",
+      title: "Events",
+      des: "Decription",
+      img: "/Events.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/omarprojects99/e-commerce-website-php.git",
+      link: "https://www.instagram.com/vibes__club/",
     },
     {
       id: 3,
-      title: "chat application",
-      des: "basic chat mobile application using flutter",
-      img: "/chatapp.jpg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      title: "Events",
+      des: "Decription",
+      img: "/Events.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+     link: "https://www.instagram.com/vibes__club/",
     },
-    {
-      id: 4,
-      title: "Admin Dashboard",
-      des: "Admin Dashboard ui html css js",
-      img: "/admindash.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
-    },
-    {
-      id: 5,
-      title: "phone e-commerce",
-      des: "e-commerce phone webapp",
-      img: "/webapp phone.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://omarintegration.vercel.app/",
-    },
-    {
-      id: 6,
-      title: "flutter e-commerce",
-      des: "phones mobile app",
-      img: "/flutter shoe.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/omarprojects99/phone-e-commerce-flutter.git",
-    }
+    
   ];
   
  
@@ -147,7 +124,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      link: 'https://github.com/omarprojects99',
+      link: '',
     },
     {
       id: 2,
@@ -156,7 +133,7 @@ export const navItems = [
     {
       id: 3,
       img: "/link.svg",
-      link: 'https://www.linkedin.com/in/omar-benhajsaid-620094266/',
+      link: '',
     },
   ];
  

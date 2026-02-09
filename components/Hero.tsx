@@ -57,12 +57,12 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Omar, a business Computing student based in Tunisia.
+           A community for growth, learning, and creativity. Members explore personal development, life skills, hobbies, and health, gaining practical tools to improve themselves and live more fulfilled, balanced lives.
           </p>
 
-          <a  href="#about" style={{marginBottom:'15px'}}>
+          <a  href="#RecentProjects" style={{marginBottom:'15px'}}>
             <MagicButton
-              title="Show my work"
+              title="Professional events"
               icon={<FaLocationArrow />}
               position="right"
              
@@ -70,7 +70,7 @@ const Hero = () => {
           </a>
           <a href="#Blog">
             <MagicButton
-              title="see my blog"
+              title="Leisure events"
               icon={<FaLocationArrow />}
               position="right"
             />
