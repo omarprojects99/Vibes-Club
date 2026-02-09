@@ -1,11 +1,12 @@
 "use client";
 import { cn } from "@/utils/cn";
 import { GlobeDemo } from "./GridGlobe"
-import { useState } from "react";
-import Lottie from "react-lottie";
-import animationData from '@/components/Data/confetti.json';
+import { useState, useEffect } from "react";
+import dynamic from 'next/dynamic';
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+
+const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
 export const BentoGrid = ({
   className,
   children,
@@ -47,7 +48,14 @@ export const BentoGridItem = ({
   const leftLists = ["Confidence", "Communication skills", "Healthy habits"];
   const rightLists = ["Organization skills", "Creativity"];
   const [copied, setcopied] = useState(false)
-  
+  const [animationData, setAnimationData] = useState(null)
+
+  useEffect(() => {
+    import('@/components/Data/confetti.json').then((data) => {
+      setAnimationData(data.default)
+    })
+  }, [])
+
   const handleCopy = () => {
     navigator.clipboard.writeText('omarbenhajsaid1@gmail.com');
     setcopied(true);
